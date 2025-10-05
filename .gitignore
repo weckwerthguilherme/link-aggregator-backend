@@ -4,6 +4,7 @@ venv/
 
 # Arquivo de variáveis de ambiente
 .env
+Modelo de dados - draw.io.htm
 
 # Arquivos de cache e compilados do Python
 __pycache__/
