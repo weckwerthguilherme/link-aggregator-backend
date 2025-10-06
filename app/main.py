@@ -12,7 +12,7 @@ app = FastAPI(title="Link Aggregator API")
 
 origins = [
     "http://localhost:5173",  # A URL do seu app React em desenvolvimento rodando localmente
-    "https://link-aggregator-frontend.vercel.app/", # Adicionaremos a URL de produção aqui depois
+    "https://link-aggregator-frontend.vercel.app", # Adicionaremos a URL de produção aqui depois
 ]
 
 app.add_middleware(
